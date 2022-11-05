@@ -28,7 +28,7 @@ namespace ViajesMetroplusEntrega
 
             // Aqui declaramos e inicializamos el arreglo de viajes
             Random aleatorio = new Random();
-            Viaje[] losViajes = new Viaje[100];
+            Viaje[] losViajes = new Viaje[10];
 
             for (int i = 0; i < losViajes.Length; i++)
             {
