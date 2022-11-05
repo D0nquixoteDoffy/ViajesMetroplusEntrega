@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ViajesMetroplusEntrega
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
@@ -66,7 +66,7 @@ namespace ViajesMetroplusEntrega
                 $"fue {nombreRutaMenor} que transportó {pasajerosRutaMenor} pasajeros");
         }
 
-        static void ObtieneRutaMenorPasajeros(int[] totalPasajerosRuta,
+        public static void ObtieneRutaMenorPasajeros(int[] totalPasajerosRuta,
                                               string[] nombresRutas,
                                               out string nombreRutaMenor,
                                               out int pasajerosRutaMenor)
@@ -113,7 +113,7 @@ namespace ViajesMetroplusEntrega
         /// <param name="arregloViajes">El arreglo de viajes</param>
         /// <param name="arregloRutas">Las rutas</param>
         /// <returns>Totales de pasajeros por ruta</returns>
-        static int[] TotalizaPasajerosRuta(Viaje[] arregloViajes, string[] arregloRutas)
+        public static int[] TotalizaPasajerosRuta(Viaje[] arregloViajes, string[] arregloRutas)
         {
             int[] totalPasajeros = new int[arregloRutas.Length];
 

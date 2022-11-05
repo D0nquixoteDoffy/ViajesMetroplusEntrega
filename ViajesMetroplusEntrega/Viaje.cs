@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ViajesMetroplusEntrega
 {
-    class Viaje
+    public class Viaje
     {
         //Atributos
         private string ruta;
